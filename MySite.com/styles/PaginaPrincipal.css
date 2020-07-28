@@ -1,0 +1,99 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, black, rgb(0, 0, 114), black);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100px;
+    background-image: linear-gradient(to left, black, rgb(0, 0, 114), black);
+    margin-bottom: 0px;
+
+}
+footer{
+    min-height: 60px;
+    background-image: linear-gradient(to left, black, rgb(0, 0, 114), black);
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+h1{
+    margin: 0 0 30px 0 ;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*====================================|| IDs ||====================================*/
+
+#logo{
+    float: left;
+    margin-left: 10%;
+}
+#menu{
+    float: right;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#menu a:hover{
+    background-image: linear-gradient(to right, rgb(0, 0, 114), black);
+    padding: 20px 50px;
+}
+
+#principal{
+    background-image: url("city.jpg");
+    min-height: 600px;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    clear: both; 
+}
+
+#dv1{
+    float: left;
+    width: auto;
+    height: 270px;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#dv2{
+    float: right;
+    width: auto;
+    height: 270px;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#certificados{
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
+}
+
+
+/*===================================|| CLASSE ||=====================================*/
+.introduct{
+    margin: 0px auto;
+    background-size: 100%;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
